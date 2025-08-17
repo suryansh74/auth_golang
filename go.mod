@@ -1,4 +1,4 @@
-module jwt-auth-app
+module github.com/suryansh74/auth_golang
 
 go 1.21
 

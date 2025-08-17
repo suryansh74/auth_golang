@@ -1,11 +1,12 @@
 package controllers
 
 import (
-	"jwt-auth-app/config"
-	"jwt-auth-app/logger"
-	"jwt-auth-app/models"
-	"jwt-auth-app/utils"
 	"time"
+
+	"github.com/suryansh74/auth_golang/auth/config"
+	"github.com/suryansh74/auth_golang/auth/logger"
+	"github.com/suryansh74/auth_golang/auth/models"
+	"github.com/suryansh74/auth_golang/auth/utils"
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/golang-jwt/jwt/v5"

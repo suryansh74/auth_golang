@@ -4,10 +4,11 @@ import (
 	"crypto/rand"
 	"encoding/base64"
 	"fmt"
-	"jwt-auth-app/logger"
 	"net/smtp"
 	"os"
 	"time"
+
+	"github.com/suryansh74/auth_golang/auth/logger"
 
 	"github.com/golang-jwt/jwt/v5"
 	"go.uber.org/zap"

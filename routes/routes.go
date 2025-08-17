@@ -1,8 +1,8 @@
 package routes
 
 import (
-	"jwt-auth-app/controllers"
-	"jwt-auth-app/middlewares"
+	"github.com/suryansh74/auth_golang/auth/controllers"
+	"github.com/suryansh74/auth_golang/auth/middlewares"
 
 	"github.com/gofiber/fiber/v2"
 )

@@ -1,11 +1,12 @@
 package main
 
 import (
-	"jwt-auth-app/config"
-	"jwt-auth-app/logger"
-	"jwt-auth-app/models"
-	"jwt-auth-app/routes"
 	"log"
+
+	"github.com/suryansh74/auth_golang/auth/config"
+	"github.com/suryansh74/auth_golang/auth/logger"
+	"github.com/suryansh74/auth_golang/auth/models"
+	"github.com/suryansh74/auth_golang/auth/routes"
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/cors"
