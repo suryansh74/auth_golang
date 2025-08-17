@@ -13,7 +13,10 @@ func SetupRoutes(app *fiber.App) {
 	// Auth routes
 	auth := api.Group("/auth")
 	auth.Post("/register", controllers.Register)
+	auth.Get("/verify-email", controllers.VerifyEmail)
 	auth.Post("/login", controllers.Login)
+	auth.Post("/forgot-password", controllers.ForgotPassword)
+	auth.Post("/reset-password", controllers.ResetPassword)
 	auth.Post("/logout", middlewares.AuthRequired, controllers.Logout)
 
 	// Profile routes (protected)
